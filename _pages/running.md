@@ -22,5 +22,5 @@ nav_order: 3
 
 | Distance | Record | Elevation Gain | Event | Date |
 |---|---:|---:|---|---|
-| 20K Trail | 4:04:18 | 1,058 m | 2026 Jangsu Trail Race 20.1km | 2025-06-08 |
-| 50K Trail | 7:16:13 | 1,910 m | 2026 Untangodo Skyrace 42.2km | 2025-09-14 |
+| 20K Trail | 4:04:18 | 1,058 m | 2026 Jangsu Trail Race 20.1km | 2026-04-04 |
+| 50K Trail | 7:16:13 | 1,910 m | 2026 Untangodo Skyrace 42.2km | 2026-06-14 |
