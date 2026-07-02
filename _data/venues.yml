@@ -10,12 +10,12 @@
 
 "ICCD":
   url: https://www.iccd-conf.com/
-  color: "#00369f"
+  color: "#60A5FA"
 
 "ISCAS":
   url: https://iscas2025.org/
-  color: "#00369f"
+  color: "#60A5FA"
 
 "SMPT":
   url: https://www.sciencedirect.com/journal/simulation-modelling-practice-and-theory
-  color: "#8a2be2"
+  color: "#C084FC"
