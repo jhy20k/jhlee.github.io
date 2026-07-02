@@ -9,14 +9,6 @@ nav_order: 3
 
 ---
 
-layout: page
-title: "🏃"
-permalink: /running/
-description: Marathon and trail running records
-nav: true
-nav_order: 3
-------------
-
 <div class="running-page" markdown="1">
 
 ## Personal Bests
