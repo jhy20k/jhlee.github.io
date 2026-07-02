@@ -7,6 +7,76 @@ nav: true
 nav_order: 3
 ---
 
+<style>
+.running-page {
+  --runner-blue: #60A5FA;
+  --runner-green: #86EFAC;
+  --runner-muted: var(--global-text-color-light);
+}
+
+.running-section-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 18px;
+  padding: 1.2rem 1.3rem;
+  margin-bottom: 1.5rem;
+  background: var(--global-card-bg-color);
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.record-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.9rem;
+}
+
+.record-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  padding: 1rem;
+  background: var(--global-bg-color);
+}
+
+.record-card .label {
+  font-size: 0.85rem;
+  color: var(--runner-muted);
+  margin-bottom: 0.25rem;
+}
+
+.record-card .value {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.record-card .event,
+.record-card .meta {
+  font-size: 0.82rem;
+  color: var(--runner-muted);
+  margin-top: 0.35rem;
+}
+
+.badge-road,
+.badge-trail {
+  display: inline-block;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge-road {
+  background: rgba(96, 165, 250, 0.16);
+  color: var(--runner-blue);
+}
+
+.badge-trail {
+  background: rgba(134, 239, 172, 0.16);
+  color: var(--runner-green);
+}
+</style>
+
 <div class="running-page">
 
 <div class="running-section-card">
