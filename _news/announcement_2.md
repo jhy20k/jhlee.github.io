@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Korea Electronics Technology Institute ([KETI](https://www.keti.re.kr/main/main.php)), SoC Platform Research Center, as a Researcher.
+Joined Korea Electronics Technology Institute ([KETI](https://www.keti.re.kr/main/main.php)), SoC Platform Research Center, as a Researcher. 💼
