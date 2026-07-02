@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs was accepted to ICCD 2026. ( )
+Our paper PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs was accepted to ICCD 2026. [Link](https://ieeexplore.ieee.org/abstract/document/11310872)
