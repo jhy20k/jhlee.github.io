@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD shudent, EIE, Seoul National University of Science and Technology
 
 profile:
   align: right
