@@ -7,19 +7,14 @@ nav_order: 3
 ---
 
 <style>
-body {
-  background-color: #0164B8 !important;
+/* Hide the page title only on this page.
+   Navbar title still remains as 🏃. */
+.post-header {
+  display: none;
 }
 
-main,
-.container,
-.container-fluid,
-.page-content,
-.post,
-.post-content {
-  background-color: #0164B8 !important;
-}
-
+/* Keep the site header/navbar background unchanged.
+   Apply the blue background only to the running content area. */
 .interests-page {
   --runner-blue: #60A5FA;
   --runner-green: #86EFAC;
@@ -27,22 +22,17 @@ main,
   --card-bg: rgba(255, 255, 255, 0.94);
   --card-border: rgba(255, 255, 255, 0.35);
 
+  background-color: #0164B8;
   color: #ffffff;
-  padding-bottom: 2rem;
+  padding: 2rem 1.4rem;
+  border-radius: 18px;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .interests-hero {
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.interests-hero img {
-  width: 170px;
-  height: 170px;
-  object-fit: contain;
-  image-rendering: pixelated;
-  border-radius: 18px;
-  margin-bottom: 0.8rem;
 }
 
 .interests-hero h2 {
@@ -53,7 +43,16 @@ main,
 
 .interests-hero p {
   color: var(--runner-muted);
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.interests-hero img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  border-radius: 18px;
+  margin-top: 0.3rem;
 }
 
 .running-section-card {
@@ -127,7 +126,7 @@ main,
 <div class="interests-hero">
   <img src="{{ '/assets/img/runner.gif' | relative_url }}" alt="Running pixel animation">
   <h2>Running Records</h2>
-  <p>Road running, and trail running personal bests.</p>
+  <p>Road running, marathon, and trail running personal bests.</p>
 </div>
 
 <div class="running-section-card">
