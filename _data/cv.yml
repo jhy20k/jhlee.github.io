@@ -1,106 +1,105 @@
-cv:
-  name: Junghyeok Lee
-  label: Ph.D. Student
-  email: ljhy20k@seoultech.ac.kr
-  image: ""
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Junghyeok Lee
+    - name: Email
+      value: ljhy20k@seoultech.ac.kr
+    - name: Affiliation
+      value: Seoul National University of Science and Technology — Ph.D. Student
 
-  sections:
-    Education:
-      - institution: Seoul National University of Science and Technology
-        location: Seoul, Korea
-        area: Electrical and Information Engineering
-        studyType: Ph.D. Student
-        start_date: "2026.09"
-        end_date: "Present"
-        summary: "Advisor: Hyun Kim"
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. Student in Electrical and Information Engineering
+      institution: Seoul National University of Science and Technology
+      year: 2026.09 - Present
+      description:
+        - "Advisor: Hyun Kim"
 
-      - institution: Seoul National University of Science and Technology
-        location: Seoul, Korea
-        area: Electrical and Information Engineering
-        studyType: Master of Science
-        start_date: "2023.09"
-        end_date: "2025.08"
-        summary: "Advisor: Hyun Kim"
+    - title: M.S. in Electrical and Information Engineering
+      institution: Seoul National University of Science and Technology
+      year: 2023.09 - 2025.08
+      description:
+        - "Advisor: Hyun Kim"
 
-      - institution: Hankuk University of Foreign Studies
-        location: Yongin, Korea
-        area: Electronic Physics
-        studyType: Bachelor of Science
-        start_date: "2016.03"
-        end_date: "2023.02"
+    - title: B.S. in Electronic Physics
+      institution: Hankuk University of Foreign Studies
+      year: 2016.03 - 2023.02
 
-    Experience:
-      - company: KETI, Korea Electronics Technology Institute
-        position: Researcher
-        location: Seongnam, Korea
-        start_date: "2026.01"
-        end_date: "2026.08"
-        summary: "SoC Platform Research Center"
+- title: Experience
+  type: time_table
+  contents:
+    - title: Researcher
+      institution: SoC Platform Research Center, KETI
+      year: 2026.01 - 2026.08
 
-      - company: Intelligent Digital System Design Lab, Seoul National University of Science and Technology
-        position: Research Student
-        location: Seoul, Korea
-        start_date: "2023.07"
-        end_date: "2023.09"
+    - title: Research Student
+      institution: Intelligent Digital System Design Lab, Seoul National University of Science and Technology
+      year: 2023.07 - 2023.09
 
-    Research Interests:
-      - label: "Memory-Centric AI Systems"
-        details: "Processing-in-Memory, Memory-System Architecture, AI Hardware Acceleration"
-    
-      - label: "Heterogeneous LLM Serving"
-        details: "GPU-PIM Heterogeneous Architectures, LLM Inference and Serving, Design-Space Exploration"
-    
-      - label: "Hardware-Aware LLM Optimization"
-        details: "Hardware-Aware Compression, Hardware-Software Co-Design"
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Memory-Centric AI Systems
+      items:
+        - Processing-in-Memory
+        - Memory-System Architecture
+        - AI Hardware Acceleration
 
-    Publications:
-      - title: "PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs"
-        authors: "Junghyeok Lee*, Jihoon Jang*, and Hyun Kim"
-        publisher: "2025 ICCD"
-        start_date: ""
-        end_date: ""
-    
-      - title: "XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models"
-        authors: "Junghyeok Lee, Jihoon Jang, and Hyun Kim"
-        publisher: "2025 ISCAS"
-        start_date: ""
-        end_date: ""
-    
-      - title: "Survey of CPU and Memory Simulators in Computer Architecture: A Comprehensive Analysis Including Compiler Integration and Emerging Technology Applications"
-        authors: "Inseong Hwang*, Junghyeok Lee*, Huibeom Kang, Gilhyeon Lee, and Hyun Kim"
-        publisher: "2025 Simulation Modelling Practice and Theory"
-        start_date: ""
-        end_date: ""
+    - title: Heterogeneous LLM Serving
+      items:
+        - GPU-PIM Heterogeneous Architectures
+        - LLM Inference and Serving
+        - Design-Space Exploration
 
-    Awards and Honors:
-      - company: "IEEE Circuits and Systems Society"
-        position: "2023-2024 Student Design Competition Winner in Seoul Chapter"
-        date: "2024.01"
-        location: "Seoul Chapter"
-        summary: "Team: Gilhyeon Lee, Seokgyu Yoon, Youngchan Kim, Junghyeok Lee, and Jihoon Jang"
-    
-    Scholarships and Supports:
-      - company: "National Research Foundation of Korea"
-        position: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
-        date: "2020.04 - 2025.12"
-        location: "Korea"
-        summary: "Supported by the National Research Foundation of Korea."
-    
-    Projects:
-      - company: "National Research Foundation of Korea"
-        position: "Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells"
-        date: "2022.04 - 2024.12"
-        location: "Korea"
-        summary: "Supported by the National Research Foundation of Korea."
-    
-      - company: "Ministry of Trade, Industry and Energy"
-        position: "Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM"
-        date: "2024.04 - 2026.12"
-        location: "Korea"
-        summary: "Supported by the Ministry of Trade, Industry and Energy."
-    
-      - company: "Ministry of Science and ICT"
-        position: "Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development"
-        date: "2026.01 - 2026.09"
-        location: "Korea"
-        summary: "Supported by the Ministry of Science and ICT."
+    - title: Hardware-Aware LLM Optimization
+      items:
+        - Hardware-Aware Compression
+        - Hardware-Software Co-Design
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs"
+      institution: "Junghyeok Lee*, Jihoon Jang*, and Hyun Kim"
+      year: 2025 ICCD
+
+    - title: "XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models"
+      institution: "Junghyeok Lee, Jihoon Jang, and Hyun Kim"
+      year: 2025 ISCAS
+
+    - title: "Survey of CPU and Memory Simulators in Computer Architecture: A Comprehensive Analysis Including Compiler Integration and Emerging Technology Applications"
+      institution: "Inseong Hwang*, Junghyeok Lee*, Huibeom Kang, Gilhyeon Lee, and Hyun Kim"
+      year: 2025 SMPT
+
+- title: Awards and Honors
+  type: time_table
+  contents:
+    - title: 2023-2024 Student Design Competition Winner in Seoul Chapter
+      institution: "IEEE Circuits and Systems Society"
+      year: 2024.01
+      description:
+        - "Team: Gilhyeon Lee, Seokgyu Yoon, Youngchan Kim, Junghyeok Lee, and Jihoon Jang"
+
+- title: Scholarships and Supports
+  type: time_table
+  contents:
+    - title: Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology
+      institution: National Research Foundation of Korea
+      year: 2023.09 - 2025.12
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells
+      institution: National Research Foundation of Korea
+      year: 2022.04 - 2024.12
+
+    - title: Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM
+      institution: Ministry of Trade, Industry and Energy
+      year: 2024.04 - 2026.12
+
+    - title: Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development
+      institution: Ministry of Science and ICT
+      year: 2026.01 - 2026.09
