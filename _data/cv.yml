@@ -56,20 +56,20 @@ cv:
     Publications:
       - title: "PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs"
         authors: "Junghyeok Lee*, Jihoon Jang*, and Hyun Kim"
-        publisher: "2025 IEEE 43rd International Conference on Computer Design (ICCD)"
-        start_date: "2025"
+        publisher: "2025 ICCD"
+        start_date: ""
         end_date: ""
-
+    
       - title: "XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models"
         authors: "Junghyeok Lee, Jihoon Jang, and Hyun Kim"
-        publisher: "2025 IEEE International Symposium on Circuits and Systems (ISCAS)"
-        start_date: "2025"
+        publisher: "2025 ISCAS"
+        start_date: ""
         end_date: ""
-
+    
       - title: "Survey of CPU and Memory Simulators in Computer Architecture: A Comprehensive Analysis Including Compiler Integration and Emerging Technology Applications"
         authors: "Inseong Hwang*, Junghyeok Lee*, Huibeom Kang, Gilhyeon Lee, and Hyun Kim"
-        publisher: "Simulation Modelling Practice and Theory"
-        start_date: "2025"
+        publisher: "2025 Simulation Modelling Practice and Theory"
+        start_date: ""
         end_date: ""
 
     Awards and Honors:
