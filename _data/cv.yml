@@ -10,116 +10,80 @@ cv:
         location: Seoul, Republic of Korea
         area: Electrical and Information Engineering
         studyType: Ph.D. Student
-        start_date: 2026-09
-        end_date: Present
-        highlights:
-          - "Advisor: Hyun Kim"
+        date: "2026.09 -- Present"
+        summary: "Advisor: Hyun Kim"
 
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
         area: Electrical and Information Engineering
         studyType: Master of Science
-        start_date: 2023-09
-        end_date: 2025-08
-        highlights:
-          - "Advisor: Hyun Kim"
+        date: "2023.09 -- 2025.08"
+        summary: "Advisor: Hyun Kim"
 
       - institution: Hankuk University of Foreign Studies
         location: Yongin, Republic of Korea
         area: Electronic Physics
         studyType: Bachelor of Science
-        start_date: 2016-03
-        end_date: 2023-02
+        date: "2016.03 -- 2023.02"
 
     Experience:
       - company: KETI, Korea Electronics Technology Institute
         position: Researcher
         location: Republic of Korea
-        start_date: 2026-01
-        end_date: 2026-08
-        highlights:
-          - SoC Platform Research Center
+        date: "2026.01 -- 2026.08"
+        summary: "SoC Platform Research Center"
 
       - company: Intelligent Digital System Design Lab, Seoul National University of Science and Technology
         position: Research Student
         location: Seoul, Republic of Korea
-        start_date: 2023-07
-        end_date: 2023-09
-        
+        date: "2023.07 -- 2023.09"
+
     Research Interests:
       - name: Memory-Centric AI Systems
-        keywords:
-          - Processing-in-Memory
-          - Memory-System Architecture
-          - AI Hardware Acceleration
-    
+        summary: "Processing-in-Memory, Memory-System Architecture, AI Hardware Acceleration"
+
       - name: Heterogeneous LLM Serving
-        keywords:
-          - GPU-PIM Heterogeneous Architectures
-          - LLM Inference and Serving
-          - Design-Space Exploration
-    
+        summary: "GPU-PIM Heterogeneous Architectures, LLM Inference and Serving, Design-Space Exploration"
+
       - name: Hardware-Aware LLM Optimization
-        keywords:
-          - Hardware-Aware Compression
-          - Hardware-Software Co-Design
+        summary: "Hardware-Aware Compression, Hardware-Software Co-Design"
 
     Publications:
       - title: "PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs"
-        authors:
-          - "Junghyeok Lee*"
-          - "Jihoon Jang*"
-          - "Hyun Kim"
+        authors: "Junghyeok Lee*, Jihoon Jang*, and Hyun Kim"
         publisher: "2025 IEEE 43rd International Conference on Computer Design (ICCD)"
-        releaseDate: 2025
+        date: "2025"
 
       - title: "XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models"
-        authors:
-          - "Junghyeok Lee"
-          - "Jihoon Jang"
-          - "Hyun Kim"
+        authors: "Junghyeok Lee, Jihoon Jang, and Hyun Kim"
         publisher: "2025 IEEE International Symposium on Circuits and Systems (ISCAS)"
-        releaseDate: 2025
+        date: "2025"
 
       - title: "Survey of CPU and Memory Simulators in Computer Architecture: A Comprehensive Analysis Including Compiler Integration and Emerging Technology Applications"
-        authors:
-          - "Inseong Hwang*"
-          - "Junghyeok Lee*"
-          - "Huibeom Kang"
-          - "Gilhyeon Lee"
-          - "Hyun Kim"
+        authors: "Inseong Hwang*, Junghyeok Lee*, Huibeom Kang, Gilhyeon Lee, and Hyun Kim"
         publisher: "Simulation Modelling Practice and Theory"
-        releaseDate: 2025
+        date: "2025"
 
     Awards and Honors:
       - title: "2023-2024 Student Design Competition Winner in Seoul Chapter"
-        authors:
-          - "Gilhyeon Lee"
-          - "Seokgyu Yoon"
-          - "Youngchan Kim"
-          - "Junghyeok Lee"
-          - "Jihoon Jang"
-        date: 2024-01-31
+        authors: "Gilhyeon Lee, Seokgyu Yoon, Youngchan Kim, Junghyeok Lee, and Jihoon Jang"
+        date: "2024.01"
         awarder: "IEEE Circuits and Systems Society"
 
     Scholarships and Supports:
       - name: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
-        start_date: 2020-04
-        end_date: 2025-12
+        date: "2020.04 -- 2025.12"
         summary: "Supported by the National Research Foundation of Korea."
 
     Projects:
       - name: "Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells"
-        start_date: 2022-04
-        end_date: 2024-12
+        date: "2022.04 -- 2024.12"
         summary: "Supported by the National Research Foundation of Korea."
 
       - name: "Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM"
-        start_date: 2024-04
-        end_date: 2026-12
+        date: "2024.04 -- 2026.12"
         summary: "Supported by the Ministry of Trade, Industry and Energy."
 
       - name: "Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development"
-        start_date: 2026-01
-        end_date: 2026-09
+        date: "2026.01 -- 2026.09"
         summary: "Supported by the Ministry of Science and ICT."
