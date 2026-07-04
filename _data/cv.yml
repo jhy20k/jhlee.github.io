@@ -10,33 +10,38 @@ cv:
         location: Seoul, Korea
         area: Electrical and Information Engineering
         studyType: Ph.D. Student
-        date: "2026.09 - Present"
+        start_date: "2026.09"
+        end_date: "Present"
         summary: "Advisor: Hyun Kim"
 
       - institution: Seoul National University of Science and Technology
         location: Seoul, Korea
         area: Electrical and Information Engineering
         studyType: Master of Science
-        date: "2023.09 - 2025.08"
+        start_date: "2023.09"
+        end_date: "2025.08"
         summary: "Advisor: Hyun Kim"
 
       - institution: Hankuk University of Foreign Studies
         location: Yongin, Korea
         area: Electronic Physics
         studyType: Bachelor of Science
-        date: "2016.03 - 2023.02"
+        start_date: "2016.03"
+        end_date: "2023.02"
 
     Experience:
       - company: KETI, Korea Electronics Technology Institute
         position: Researcher
         location: Seongnam, Korea
-        date: "2026.01 - 2026.08"
+        start_date: "2026.01"
+        end_date: "2026.08"
         summary: "SoC Platform Research Center"
 
       - company: Intelligent Digital System Design Lab, Seoul National University of Science and Technology
         position: Research Student
         location: Seoul, Korea
-        date: "2023.07 - 2023.09"
+        start_date: "2023.07"
+        end_date: "2023.09"
 
     Research Interests:
       - name: Memory-Centric AI Systems
@@ -52,38 +57,46 @@ cv:
       - title: "PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs"
         authors: "Junghyeok Lee*, Jihoon Jang*, and Hyun Kim"
         publisher: "2025 IEEE 43rd International Conference on Computer Design (ICCD)"
-        date: "2025"
+        start_date: "2025"
+        end_date: ""
 
       - title: "XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models"
         authors: "Junghyeok Lee, Jihoon Jang, and Hyun Kim"
         publisher: "2025 IEEE International Symposium on Circuits and Systems (ISCAS)"
-        date: "2025"
+        start_date: "2025"
+        end_date: ""
 
       - title: "Survey of CPU and Memory Simulators in Computer Architecture: A Comprehensive Analysis Including Compiler Integration and Emerging Technology Applications"
         authors: "Inseong Hwang*, Junghyeok Lee*, Huibeom Kang, Gilhyeon Lee, and Hyun Kim"
         publisher: "Simulation Modelling Practice and Theory"
-        date: "2025"
+        start_date: "2025"
+        end_date: ""
 
     Awards and Honors:
       - title: "2023-2024 Student Design Competition Winner in Seoul Chapter"
         authors: "Gilhyeon Lee, Seokgyu Yoon, Youngchan Kim, Junghyeok Lee, and Jihoon Jang"
-        date: "2024.01"
+        start_date: "2024.01"
+        end_date: ""
         awarder: "IEEE Circuits and Systems Society"
 
     Scholarships and Supports:
       - name: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
-        date: "2020.04 - 2025.12"
+        start_date: "2020.04"
+        end_date: "2025.12"
         summary: "Supported by the National Research Foundation of Korea."
 
     Projects:
       - name: "Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells"
-        date: "2022.04 - 2024.12"
+        start_date: "2022.04"
+        end_date: "2024.12"
         summary: "Supported by the National Research Foundation of Korea."
 
       - name: "Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM"
-        date: "2024.04 - 2026.12"
+        start_date: "2024.04"
+        end_date: "2026.12"
         summary: "Supported by the Ministry of Trade, Industry and Energy."
 
       - name: "Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development"
-        date: "2026.01 - 2026.09"
+        start_date: "2026.01"
+        end_date: "2026.09"
         summary: "Supported by the Ministry of Science and ICT."
