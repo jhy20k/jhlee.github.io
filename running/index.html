@@ -5,19 +5,14 @@
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8F%83&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://jhy20k.github.io/running/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Junghyeok Lee </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item active"> <a class="nav-link" href="/running/">🏃 <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">🏃</h1> <p class="post-description"></p> </header> <article> <style>
-body {
-  background-color: #0164B8 !important;
+/* Hide the page title only on this page.
+   Navbar title still remains as 🏃. */
+.post-header {
+  display: none;
 }
 
-main,
-.container,
-.container-fluid,
-.page-content,
-.post,
-.post-content {
-  background-color: #0164B8 !important;
-}
-
+/* Keep the site header/navbar background unchanged.
+   Apply the blue background only to the running content area. */
 .interests-page {
   --runner-blue: #60A5FA;
   --runner-green: #86EFAC;
@@ -25,22 +20,17 @@ main,
   --card-bg: rgba(255, 255, 255, 0.94);
   --card-border: rgba(255, 255, 255, 0.35);
 
+  background-color: #0164B8;
   color: #ffffff;
-  padding-bottom: 2rem;
+  padding: 2rem 1.4rem;
+  border-radius: 18px;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .interests-hero {
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.interests-hero img {
-  width: 170px;
-  height: 170px;
-  object-fit: contain;
-  image-rendering: pixelated;
-  border-radius: 18px;
-  margin-bottom: 0.8rem;
 }
 
 .interests-hero h2 {
@@ -51,7 +41,16 @@ main,
 
 .interests-hero p {
   color: var(--runner-muted);
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.interests-hero img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  border-radius: 18px;
+  margin-top: 0.3rem;
 }
 
 .running-section-card {
@@ -118,7 +117,7 @@ main,
   background: rgba(255, 255, 255, 0.9);
   color: #059669;
 }
-</style> <div class="interests-page"> <div class="interests-hero"> <img src="/assets/img/runner.gif" alt="Running pixel animation"> <h2>Running Records</h2> <p>Road running, and trail running personal bests.</p> </div> <div class="running-section-card"> <div class="section-title"> <span class="badge-road">Road Running</span> </div> <div class="record-grid"> <div class="record-card"> <div class="label">5K</div> <div class="value">22:41</div> <div class="event">Local Race</div> <div class="meta">2026-06-07</div> </div> <div class="record-card"> <div class="label">10K</div> <div class="value">47:37</div> <div class="event">2025 Seoul Earth Marathon</div> <div class="meta">2025-09-21</div> </div> <div class="record-card"> <div class="label">Half Marathon</div> <div class="value">1:41:08</div> <div class="event">2026 Seoul Half Marathon</div> <div class="meta">2026-04-26</div> </div> <div class="record-card"> <div class="label">Marathon</div> <div class="value">4:06:35</div> <div class="event">2026 Seoul Marathon</div> <div class="meta">2026-03-15</div> </div> </div> </div> <div class="running-section-card"> <div class="section-title"> <span class="badge-trail">Trail Running</span> </div> <div class="record-grid"> <div class="record-card"> <div class="label">20K Trail</div> <div class="value">4:04:18</div> <div class="event">2026 Jangsu Trail Race 20.1km</div> <div class="meta">2026-04-04</div> <div class="meta">Elevation Gain: 1,058 m</div> </div> <div class="record-card"> <div class="label">50K Trail</div> <div class="value">7:16:13</div> <div class="event">2026 Untangodo Skyrace 42.2km</div> <div class="meta">2026-06-14</div> <div class="meta">Elevation Gain: 1,910 m</div> </div> </div> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Junghyeok Lee. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+</style> <div class="interests-page"> <div class="interests-hero"> <img src="/assets/img/runner.gif" alt="Running pixel animation"> <h2>Running Records</h2> <p>Road running, marathon, and trail running personal bests.</p> </div> <div class="running-section-card"> <div class="section-title"> <span class="badge-road">Road Running</span> </div> <div class="record-grid"> <div class="record-card"> <div class="label">5K</div> <div class="value">22:41</div> <div class="event">Local Race</div> <div class="meta">2026-06-07</div> </div> <div class="record-card"> <div class="label">10K</div> <div class="value">47:37</div> <div class="event">2025 Seoul Earth Marathon</div> <div class="meta">2025-09-21</div> </div> <div class="record-card"> <div class="label">Half Marathon</div> <div class="value">1:41:08</div> <div class="event">2026 Seoul Half Marathon</div> <div class="meta">2026-04-26</div> </div> <div class="record-card"> <div class="label">Marathon</div> <div class="value">4:06:35</div> <div class="event">2026 Seoul Marathon</div> <div class="meta">2026-03-15</div> </div> </div> </div> <div class="running-section-card"> <div class="section-title"> <span class="badge-trail">Trail Running</span> </div> <div class="record-grid"> <div class="record-card"> <div class="label">20K Trail</div> <div class="value">4:04:18</div> <div class="event">2026 Jangsu Trail Race 20.1km</div> <div class="meta">2026-04-04</div> <div class="meta">Elevation Gain: 1,058 m</div> </div> <div class="record-card"> <div class="label">50K Trail</div> <div class="value">7:16:13</div> <div class="event">2026 Untangodo Skyrace 42.2km</div> <div class="meta">2026-06-14</div> <div class="meta">Elevation Gain: 1,910 m</div> </div> </div> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Junghyeok Lee. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
