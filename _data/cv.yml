@@ -7,21 +7,21 @@ cv:
   sections:
     Education:
       - institution: Seoul National University of Science and Technology
-        location: Seoul, Republic of Korea
+        location: Seoul, Korea
         area: Electrical and Information Engineering
         studyType: Ph.D. Student
         date: "2026.09 - Present"
         summary: "Advisor: Hyun Kim"
 
       - institution: Seoul National University of Science and Technology
-        location: Seoul, Republic of Korea
+        location: Seoul, Korea
         area: Electrical and Information Engineering
         studyType: Master of Science
         date: "2023.09 - 2025.08"
         summary: "Advisor: Hyun Kim"
 
       - institution: Hankuk University of Foreign Studies
-        location: Yongin, Republic of Korea
+        location: Yongin, Korea
         area: Electronic Physics
         studyType: Bachelor of Science
         date: "2016.03 - 2023.02"
@@ -29,13 +29,13 @@ cv:
     Experience:
       - company: KETI, Korea Electronics Technology Institute
         position: Researcher
-        location: Republic of Korea
+        location: Seongnam, Korea
         date: "2026.01 - 2026.08"
         summary: "SoC Platform Research Center"
 
       - company: Intelligent Digital System Design Lab, Seoul National University of Science and Technology
         position: Research Student
-        location: Seoul, Republic of Korea
+        location: Seoul, Korea
         date: "2023.07 - 2023.09"
 
     Research Interests:
