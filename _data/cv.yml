@@ -49,21 +49,19 @@ cv:
     Research Interests:
       - name: Memory-Centric AI Systems
         keywords:
-          - Memory-Centric Architectures
           - Processing-in-Memory
-          - AI Systems
-
+          - Memory-System Architecture
+          - AI Hardware Acceleration
+    
       - name: Heterogeneous LLM Serving
         keywords:
-          - Heterogeneous Architecture
-          - LLM Serving
+          - GPU-PIM Heterogeneous Architectures
+          - LLM Inference and Serving
           - Design-Space Exploration
-
+    
       - name: Hardware-Aware LLM Optimization
         keywords:
-          - LLM Compression
-          - Inference Acceleration
-          - On-Device AI
+          - Hardware-Aware Compression
           - Hardware-Software Co-Design
 
     Publications:
@@ -74,8 +72,6 @@ cv:
           - "Hyun Kim"
         publisher: "2025 IEEE 43rd International Conference on Computer Design (ICCD)"
         releaseDate: 2025
-        url: https://ieeexplore.ieee.org/abstract/document/11310872/
-        summary: "Equal contribution. IF: 1, NRF BK21+ Acceptance Rate: 25.5%."
 
       - title: "XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models"
         authors:
@@ -94,7 +90,6 @@ cv:
           - "Hyun Kim"
         publisher: "Simulation Modelling Practice and Theory"
         releaseDate: 2025
-        summary: "Article number: 103032. Equal contribution."
 
     Domestic Conferences:
       - title: "AiM-CoSim: GDDR6-AiM Timing-Functional Co-Simulation 프레임워크"
@@ -120,7 +115,6 @@ cv:
           - "김현"
         publisher: "대한전자공학회 학술대회"
         releaseDate: 2025
-        summary: "pp. 2852–2854."
 
       - title: "메모리 접근 효율을 고려한 트랜스포머 기반 모델들의 실제 데이터 압축률 분석"
         authors:
@@ -129,7 +123,6 @@ cv:
           - "김현"
         publisher: "대한전자공학회 학술대회"
         releaseDate: 2024
-        summary: "pp. 687–689."
 
     Patents:
       - title: "임베딩 레이어의 압축을 통한 메모리를 기반으로 저전력 처리를 위한 전자 장치 및 그 구동 방법"
@@ -139,7 +132,6 @@ cv:
           - "장지훈"
         date: 2025
         awarder: "Seoul National University of Science and Technology Industry-Academic Cooperation Foundation"
-        summary: "Korean Patent Application No. 10-2025-0065237."
 
     Awards and Honors:
       - title: "2023-2024 Student Design Competition Winner in Seoul Chapter"
