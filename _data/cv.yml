@@ -91,48 +91,6 @@ cv:
         publisher: "Simulation Modelling Practice and Theory"
         releaseDate: 2025
 
-    Domestic Conferences:
-      - title: "AiM-CoSim: GDDR6-AiM Timing-Functional Co-Simulation 프레임워크"
-        authors:
-          - "이정혁"
-          - "김병수"
-          - "전석훈"
-        publisher: "대한전자공학회 하계학술대회"
-        releaseDate: 2026
-
-      - title: "LLM 추론에서 이기종 연산기의 수치 오차 허용 한도 탐색을 위한 에러 모델"
-        authors:
-          - "이채린"
-          - "이정혁"
-          - "전석훈"
-        publisher: "대한전자공학회 하계학술대회"
-        releaseDate: 2026
-
-      - title: "VLM의 시각-언어 토큰 modality 차이에 따른 양자화 정확도 저하 완화를 위한 무손실 압축 기법"
-        authors:
-          - "이정혁"
-          - "장지훈"
-          - "김현"
-        publisher: "대한전자공학회 학술대회"
-        releaseDate: 2025
-
-      - title: "메모리 접근 효율을 고려한 트랜스포머 기반 모델들의 실제 데이터 압축률 분석"
-        authors:
-          - "이정혁"
-          - "장지훈"
-          - "김현"
-        publisher: "대한전자공학회 학술대회"
-        releaseDate: 2024
-
-    Patents:
-      - title: "임베딩 레이어의 압축을 통한 메모리를 기반으로 저전력 처리를 위한 전자 장치 및 그 구동 방법"
-        authors:
-          - "김현"
-          - "이정혁"
-          - "장지훈"
-        date: 2025
-        awarder: "Seoul National University of Science and Technology Industry-Academic Cooperation Foundation"
-
     Awards and Honors:
       - title: "2023-2024 Student Design Competition Winner in Seoul Chapter"
         authors:
