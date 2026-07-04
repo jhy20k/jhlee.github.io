@@ -175,16 +175,17 @@ nav_order: 3
       <div class="label">20K Trail</div>
       <div class="value">4:04:18</div>
       <div class="event">2026 Jangsu Trail Race 20.1km</div>
-      <div class="meta">2026-04-04</div>
       <div class="meta">Elevation Gain: 1,058 m</div>
+      <div class="meta">2026-04-04</div>
     </div>
 
     <div class="record-card">
       <div class="label">50K Trail</div>
       <div class="value">7:16:13</div>
       <div class="event">2026 Untangodo Skyrace 42.2km</div>
-      <div class="meta">2026-06-14</div>
       <div class="meta">Elevation Gain: 1,910 m</div>
+      <div class="meta">2026-06-14</div>
+
     </div>
   </div>
 </div>
