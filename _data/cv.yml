@@ -38,7 +38,7 @@ cv:
         location: Seoul, Korea
         date: "2023.07 - 2023.09"
 
-    Research Interests:
+    Interests:
       - label: "Memory-Centric AI Systems"
         details: "Processing-in-Memory, Memory-System Architecture, AI Hardware Acceleration"
 
@@ -61,7 +61,7 @@ cv:
         authors: "Inseong Hwang*, Junghyeok Lee*, Huibeom Kang, Gilhyeon Lee, and Hyun Kim"
         publisher: "2025 SMPT"
 
-    Awards and Honors:
+    Awards:
       - company: "IEEE Circuits and Systems Society"
         position: "2023-2024 Student Design Competition Winner in Seoul Chapter"
         date: "2024.01"
