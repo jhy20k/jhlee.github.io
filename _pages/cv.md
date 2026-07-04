@@ -4,7 +4,6 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 2
-description: Curriculum Vitae of Junghyeok Lee.
 ---
 
 <style>
@@ -14,7 +13,6 @@ description: Curriculum Vitae of Junghyeok Lee.
   border: 1px solid var(--global-divider-color);
   border-radius: 12px;
   overflow: hidden;
-  background: var(--global-bg-color);
 }
 
 .cv-pdf-container iframe {
@@ -22,22 +20,16 @@ description: Curriculum Vitae of Junghyeok Lee.
   height: 100%;
   border: none;
 }
-
-.cv-download {
-  margin-top: 1rem;
-  text-align: right;
-}
 </style>
 
 <div class="cv-pdf-container">
   <iframe
-    src="{{ '/assets/pdf/CV_Junghyeok_Lee_2026_07.pdf' | relative_url }}#toolbar=1&navpanes=0&scrollbar=1"
-    title="Junghyeok Lee CV">
+    src="https://docs.google.com/gview?embedded=true&url=https://jhy20k.github.io/assets/pdf/CV_Junghyeok_Lee_2026_07.pdf">
   </iframe>
 </div>
 
-<div class="cv-download">
+<p>
   <a href="{{ '/assets/pdf/CV_Junghyeok_Lee_2026_07.pdf' | relative_url }}" target="_blank">
     Download CV PDF
   </a>
-</div>
+</p>
