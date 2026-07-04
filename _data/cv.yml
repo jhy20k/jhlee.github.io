@@ -144,17 +144,6 @@ cv:
         date: 2024-01-31
         awarder: "IEEE Circuits and Systems Society"
 
-    Skills:
-      - name: Hardware Description Language
-        keywords:
-          - Verilog
-
-      - name: Programming Languages
-        keywords:
-          - Python
-          - C
-          - C++
-
     Scholarships and Supports:
       - name: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
         start_date: 2020-04
