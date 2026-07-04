@@ -55,7 +55,7 @@
 
     - title: Hardware-Aware LLM Optimization
       items:
-        - Hardware-Aware Compression
+        - LLM Compression
         - Hardware-Software Co-Design
 
 - title: Publications
