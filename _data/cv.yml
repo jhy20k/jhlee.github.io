@@ -10,33 +10,33 @@ cv:
         location: Seoul, Republic of Korea
         area: Electrical and Information Engineering
         studyType: Ph.D. Student
-        date: "2026.09 -- Present"
+        date: "2026.09 - Present"
         summary: "Advisor: Hyun Kim"
 
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
         area: Electrical and Information Engineering
         studyType: Master of Science
-        date: "2023.09 -- 2025.08"
+        date: "2023.09 - 2025.08"
         summary: "Advisor: Hyun Kim"
 
       - institution: Hankuk University of Foreign Studies
         location: Yongin, Republic of Korea
         area: Electronic Physics
         studyType: Bachelor of Science
-        date: "2016.03 -- 2023.02"
+        date: "2016.03 - 2023.02"
 
     Experience:
       - company: KETI, Korea Electronics Technology Institute
         position: Researcher
         location: Republic of Korea
-        date: "2026.01 -- 2026.08"
+        date: "2026.01 - 2026.08"
         summary: "SoC Platform Research Center"
 
       - company: Intelligent Digital System Design Lab, Seoul National University of Science and Technology
         position: Research Student
         location: Seoul, Republic of Korea
-        date: "2023.07 -- 2023.09"
+        date: "2023.07 - 2023.09"
 
     Research Interests:
       - name: Memory-Centric AI Systems
@@ -72,18 +72,18 @@ cv:
 
     Scholarships and Supports:
       - name: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
-        date: "2020.04 -- 2025.12"
+        date: "2020.04 - 2025.12"
         summary: "Supported by the National Research Foundation of Korea."
 
     Projects:
       - name: "Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells"
-        date: "2022.04 -- 2024.12"
+        date: "2022.04 - 2024.12"
         summary: "Supported by the National Research Foundation of Korea."
 
       - name: "Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM"
-        date: "2024.04 -- 2026.12"
+        date: "2024.04 - 2026.12"
         summary: "Supported by the Ministry of Trade, Industry and Energy."
 
       - name: "Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development"
-        date: "2026.01 -- 2026.09"
+        date: "2026.01 - 2026.09"
         summary: "Supported by the Ministry of Science and ICT."
