@@ -44,14 +44,14 @@ cv:
         end_date: "2023.09"
 
     Research Interests:
-      - name: Memory-Centric AI Systems
-        summary: "Processing-in-Memory, Memory-System Architecture, AI Hardware Acceleration"
-
-      - name: Heterogeneous LLM Serving
-        summary: "GPU-PIM Heterogeneous Architectures, LLM Inference and Serving, Design-Space Exploration"
-
-      - name: Hardware-Aware LLM Optimization
-        summary: "Hardware-Aware Compression, Hardware-Software Co-Design"
+      - label: "Memory-Centric AI Systems"
+        details: "Processing-in-Memory, Memory-System Architecture, AI Hardware Acceleration"
+    
+      - label: "Heterogeneous LLM Serving"
+        details: "GPU-PIM Heterogeneous Architectures, LLM Inference and Serving, Design-Space Exploration"
+    
+      - label: "Hardware-Aware LLM Optimization"
+        details: "Hardware-Aware Compression, Hardware-Software Co-Design"
 
     Publications:
       - title: "PriME: PIM-Aware Efficient Compression for Memory-Bound Embedding Layers in sLLMs"
@@ -73,30 +73,34 @@ cv:
         end_date: ""
 
     Awards and Honors:
-      - title: "2023-2024 Student Design Competition Winner in Seoul Chapter"
-        authors: "Gilhyeon Lee, Seokgyu Yoon, Youngchan Kim, Junghyeok Lee, and Jihoon Jang"
-        start_date: "2024.01"
-        end_date: ""
-        awarder: "IEEE Circuits and Systems Society"
-
+      - company: "IEEE Circuits and Systems Society"
+        position: "2023-2024 Student Design Competition Winner in Seoul Chapter"
+        date: "2024.01"
+        location: "Seoul Chapter"
+        summary: "Team: Gilhyeon Lee, Seokgyu Yoon, Youngchan Kim, Junghyeok Lee, and Jihoon Jang"
+    
     Scholarships and Supports:
-      - name: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
-        start_date: "2020.04"
-        end_date: "2025.12"
+      - company: "National Research Foundation of Korea"
+        position: "Multidisciplinary Research Training and Development Enterprise for AI and Semiconductor Technology"
+        date: "2020.04 - 2025.12"
+        location: "Korea"
         summary: "Supported by the National Research Foundation of Korea."
-
+    
     Projects:
-      - name: "Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells"
-        start_date: "2022.04"
-        end_date: "2024.12"
+      - company: "National Research Foundation of Korea"
+        position: "Development of Circuits and Architecture for 2T DRAM-Based Low-Power and High-Performance PIM Cells"
+        date: "2022.04 - 2024.12"
+        location: "Korea"
         summary: "Supported by the National Research Foundation of Korea."
-
-      - name: "Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM"
-        start_date: "2024.04"
-        end_date: "2026.12"
+    
+      - company: "Ministry of Trade, Industry and Energy"
+        position: "Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM"
+        date: "2024.04 - 2026.12"
+        location: "Korea"
         summary: "Supported by the Ministry of Trade, Industry and Energy."
-
-      - name: "Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development"
-        start_date: "2026.01"
-        end_date: "2026.09"
+    
+      - company: "Ministry of Science and ICT"
+        position: "Simulation-Based High-Speed and High-Accuracy Datacenter Workload/System Analysis Platform Development"
+        date: "2026.01 - 2026.09"
+        location: "Korea"
         summary: "Supported by the Ministry of Science and ICT."
