@@ -44,13 +44,13 @@ description: Curriculum Vitae of Junghyeok Lee.
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
+  width: 3.2rem;
+  height: 3.2rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
   color: var(--global-text-color);
   text-decoration: none;
-  font-size: 1.45rem;
+  font-size: 1.6rem;
   transition: all 0.15s ease-in-out;
 }
 
@@ -90,7 +90,7 @@ description: Curriculum Vitae of Junghyeok Lee.
     aria-label="Download CV PDF"
     title="Download CV PDF"
   >
-    <i class="fa-solid fa-file-pdf"></i>
+    <i class="fas fa-file-pdf"></i>
   </a>
 </div>
 
