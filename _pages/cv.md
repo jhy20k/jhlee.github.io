@@ -8,7 +8,6 @@ description: Curriculum Vitae of Junghyeok Lee.
 ---
 
 <style>
-/* Hide default page title to make a custom CV header */
 .post-header {
   display: none;
 }
@@ -17,25 +16,41 @@ description: Curriculum Vitae of Junghyeok Lee.
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
-.cv-header h1 {
+.cv-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.cv-title-block .cv-main-title {
   margin: 0;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.35rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--global-text-color);
+}
+
+.cv-title-block .cv-name {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--global-text-color-light);
 }
 
 .cv-download-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 3rem;
+  height: 3rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
   color: var(--global-text-color);
   text-decoration: none;
+  font-size: 1.45rem;
   transition: all 0.15s ease-in-out;
 }
 
@@ -43,6 +58,7 @@ description: Curriculum Vitae of Junghyeok Lee.
   color: var(--global-theme-color);
   border-color: var(--global-theme-color);
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .cv-pdf-container {
@@ -62,7 +78,10 @@ description: Curriculum Vitae of Junghyeok Lee.
 </style>
 
 <div class="cv-header">
-  <h1>CV</h1>
+  <div class="cv-title-block">
+    <h1 class="cv-main-title">Curriculum Vitae</h1>
+    <p class="cv-name">Junghyeok Lee</p>
+  </div>
 
   <a
     class="cv-download-icon"
