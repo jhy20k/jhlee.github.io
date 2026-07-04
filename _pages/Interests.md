@@ -2,7 +2,6 @@
 layout: page
 title: "🏃"
 permalink: /running/
-description: Marathon and trail running records
 nav: true
 nav_order: 3
 ---
