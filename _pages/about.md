@@ -24,6 +24,6 @@ latest_posts:
 
 I am a Ph.D. student in the Department of Electrical and Information Engineering at [Seoul National University of Science and Technology](https://www.seoultech.ac.kr/), Korea, where I am a member of Prof. [Hyun Kim](https://idsl.seoultech.ac.kr/?p=people#Prof)’s [IDSL Lab](https://idsl.seoultech.ac.kr/index.php). My research focuses on efficient LLM inference acceleration, hardware-software co-design, and memory-centric architecture.
 
-My recent work explores compression algorithms and processing units that enhance the benefits of processing-in-memory for LLM serving on heterogeneous architectures. More broadly, I aim to develop next-generation memory-centric architectures by co-designing architectural simulation frameworks for design-space exploration, algorithms, memory systems, and hardware optimization techniques to support efficient and reliable execution of AI and HPC workloads.
+My recent work explores compression algorithms and processing units that amplify the benefits of processing-in-memory for LLM serving on heterogeneous architectures. More broadly, I aim to develop next-generation memory-centric architectures by co-designing architectural simulation frameworks, compression algorithms, memory systems, and hardware optimization techniques to improve both software efficiency and hardware scalability for AI serving systems.
 
 
