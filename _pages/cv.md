@@ -20,7 +20,7 @@ description: Curriculum Vitae of Junghyeok Lee.
 }
 
 .cv-title-block {
-  display: flex;
+  display: flex; 
   flex-direction: column;
   gap: 0.15rem;
 }
