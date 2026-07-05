@@ -126,7 +126,7 @@ nav_order: 3
 <div class="interests-hero">
   <img src="{{ '/assets/img/runner.gif' | relative_url }}" alt="Running pixel animation">
   <h2>Running Records</h2>
-  <p>Road running, and trail running personal bests.</p>
+  <p>This section highlights my personal bests in road running and trail running.</p>
 </div>
 
 <div class="running-section-card">
