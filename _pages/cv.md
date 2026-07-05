@@ -44,13 +44,13 @@ description: Curriculum Vitae of Junghyeok Lee.
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 6rem;
+  height: 6rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
   color: var(--global-text-color);
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 3rem;
   transition: all 0.15s ease-in-out;
 }
 
